@@ -55,6 +55,10 @@
 (set-language-environment "Korean")
 (prefer-coding-system 'utf-8)
 
+(global-linum-mode t)			; line number mode
+(setq make-backup-files nil)	; no backup file
+(global-linum-mode t)			; line number mode
+
 ;; for copy & paste for MAC
 (defun copy-from-osx ()
   (shell-command-to-string "pbpaste"))
